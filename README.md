@@ -12,7 +12,7 @@ This project uses THREE.js to create a 3D simulation of the Earth and the Moon. 
 1. **Clone the repository**
 
 ```bash
-git clone [https://github.com/KreaMonto/planet.git](https://github.com/KreaMonto/planet.git)
+git clone https://github.com/KreaMonto/planet.git
 ```
 
 2. **Navigate to the project directory**
@@ -39,9 +39,9 @@ This will start the development server and open the simulation in your default w
 
 - `index.js`: Main file that sets up and renders the 3D scene.
 - `static/`: Directory containing the textures used in the project.
-    - WorldMap.png: Texture for the Earth.
-    - Moonmap.png: Texture for the Moon.
-    - stars.jpg: Starry background.
+    - `WorldMap.png`: Texture for the Earth.
+    - `Moonmap.png`: Texture for the Moon.
+    - `stars.jpg`: Starry background.
 
 ## Code Description
 
@@ -61,8 +61,8 @@ This will start the development server and open the simulation in your default w
 - Starry Background: Applied as the scene's background.
 
 ### 3D Objects
-- `Earth`: A spherical model with texture.
-- `Moon`: A spherical model with texture that orbits around the Earth.
+- Earth: A spherical model with texture.
+- Moon: A spherical model with texture that orbits around the Earth.
 
 ### Movement
 - Earth Rotation: The Earth rotates around its axis.
@@ -72,4 +72,4 @@ This will start the development server and open the simulation in your default w
 The `animate()` method updates the positions of the Earth and Moon and renders the scene in an animation loop.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
